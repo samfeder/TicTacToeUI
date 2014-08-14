@@ -1,0 +1,69 @@
+html, body, h1, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+ul {
+  margin: 50px auto;
+  width: 300px;
+  border: rgba(160, 160, 160, 0.59);
+  background: url('Yoda.png') no-repeat;
+  background-size: cover;
+}
+
+li {
+  float: left;
+  list-style: none;
+  width: 90px;
+  height: 90px;
+  border: 5px solid rgba(160, 160, 160, 0.59);
+  background: rgb(82, 82, 82);
+}
+
+li:hover {
+
+/*   background: #ffffff url("img_tree.png") no-repeat right top;*/
+
+  background-color: green;
+  background-image: url('CrossHair2.jpeg') no-repeat;
+  background-size: cover;
+}
+
+.group {
+  display: block;
+  clear: both;
+}
+
+.o-selected {
+  background-image: url('o.png');
+  background-size: cover;
+}
+
+.x-selected {
+  background-image: url('x.png');
+  background-size: cover;
+}
+
+.winning {
+  opacity: 0.3;
+}
+
+.not-winning {
+  opacity: 0;
+}
+
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 75px;
+  text-align: center;
+}
+
+h2 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+}
