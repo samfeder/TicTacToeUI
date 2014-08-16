@@ -1,5 +1,1 @@
-# ttt.js
-
-[Live Demo][live-demo]
-
-[live-demo]: http://appacademy.github.io/ttt.js/
+A simple tic-tac-toe game, with a surprise guest.
